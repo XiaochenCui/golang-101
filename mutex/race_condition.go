@@ -11,6 +11,7 @@ func increment(wg *sync.WaitGroup) {
 	x = x + 1
 	wg.Done()
 }
+
 func main() {
 	var w sync.WaitGroup
 	for i := 0; i < 1000; i++ {
