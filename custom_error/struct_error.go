@@ -32,5 +32,5 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println("Area of rectangle 1 %0.2f", area)
+	fmt.Printf("Area of rectangle1 %0.2f", area)
 }
